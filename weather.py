@@ -19,8 +19,8 @@ class Weather:
         self.lon = location[0].lon
 
     def get_weather(self):
-        weather = self.weather_mgr.weather_at_coords(self.lat, self.lon)
-        self.current_weather = weather.weather
+        weather_data = self.weather_mgr.weather_at_coords(self.lat, self.lon)
+        self.current_weather = weather_data.weather
 
     def display_weather(self):
         weather_status = self.current_weather.status
