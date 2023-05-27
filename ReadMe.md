@@ -31,6 +31,18 @@
 12. Run the `weather.py` file using the command `python weather.py <city_name>`.
 13. The current weather information of the given location will be displayed on the console.
 
+## Future Scope
+1. The tool can be extended to show the hourly weather forecast of the given location for the next 4 days.
+2. The tool can be extended to show the daily weather forecast of the given location for the next 16 days.
+3. The tool can be extended to show the climatic weather forecast of the given location for the next 30 days.
+4. The tool can be extended to send global weather alerts push notification.
+5. The tool can be extended to show Road Risks.
+6. The tool can be extended to show the Solar Irradiance.
+7. The tool can be extended to show the Air Pollution.
+8. The tool can be extended to show the Weather Maps.
+9. The tool can be extended to show the Historical Weather Data.
+10. The tool can be extended to show the Geocoding and many more.
+
 ## Contributors
 1. [**_Krishna Priyatham Potluri_**](https://github.com/kittupriyatham)
 
