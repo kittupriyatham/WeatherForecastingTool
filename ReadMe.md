@@ -32,7 +32,7 @@
 13. The current weather information of the given location will be displayed on the console.
 
 ## Contributors
-1. [**_Krishna Priyatham Potluri_**](https://github.com/kittupriyatham/WeatherForecastingTool/tree/origin)
+1. [**_Krishna Priyatham Potluri_**](https://github.com/kittupriyatham)
 
 ## References and Links
 1. [**_TECHGIG_**](https://www.techgig.com/codegladiators/github-copilot-hackathon)
