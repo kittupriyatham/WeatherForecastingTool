@@ -23,34 +23,28 @@ class Weather:
         self.current_weather = weather.weather
 
     def display_weather(self):
-        weather_status = self.current_weather.weather_status
-        print(weather_status)
+        weather_status = self.current_weather.status
+        print("Weather Status:", weather_status)
         detailed_status = self.current_weather.detailed_status
-        print(detailed_status)
+        print("Detailed Weather Status:", detailed_status)
         temperature = self.current_weather.temperature('celsius')
-        print(temperature)
+        print("Temperature:", temperature)
         humidity = self.current_weather.humidity
-        print(humidity)
+        print("Humidity:", humidity)
         wind = self.current_weather.wind()
-        print(wind)
+        print("Wind:", wind)
         rain = self.current_weather.rain
-        print(rain)
+        if len(rain) != 0:
+            print("Rain:", rain)
         snow = self.current_weather.snow
-        print(snow)
+        if len(snow) != 0:
+            print("Snow:", snow)
         clouds = self.current_weather.clouds
-        print(clouds)
-        reference_time = self.current_weather.reference_time('iso')
-        print(reference_time)
+        print("Clouds:", clouds)
         sunrise_time = self.current_weather.sunrise_time('iso')
-        print(sunrise_time)
+        print("Sunrise Time:", sunrise_time)
         sunset_time = self.current_weather.sunset_time('iso')
-        print(sunset_time)
-        visibility_distance = self.current_weather.visibility_distance
-        print(visibility_distance)
-        weather_code = self.current_weather.weather_code
-        print(weather_code)
-        weather_icon_name = self.current_weather.weather_icon_name
-        print(weather_icon_name)
+        print("Sunset Time:", sunset_time)
 
 
 # use the above class Weather to create a weather object and display
