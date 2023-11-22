@@ -55,7 +55,3 @@
 6. [**_Git_**](https://git-scm.com/)
 7. [**_Python_**](https://www.python.org/)
 8. [**_PyCharm_**](https://www.jetbrains.com/pycharm/)
-
-## Hackathon Submission Files
-1. [**_Presentation.pptx_**]()
-2. [**_Video.mp4_**]()
